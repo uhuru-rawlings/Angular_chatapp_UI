@@ -10,6 +10,14 @@
 h3{
     text-align: center;
 }
+.userimage img{
+    border-radius: 50%;
+}
+.firstchat{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 10px;
+}
 .charts{
     width: 40%;
     height: 480px;
@@ -43,7 +51,8 @@ button{
     width: 100%;
     padding-left: 20px;
     font-size: 17px;
-    border: 2px solid #032344;
+    border: 1px solid #032344;
+    border-radius: 20px;
 }
 .recent_chart_section{
     border-right: 1px solid #aac1d8;
