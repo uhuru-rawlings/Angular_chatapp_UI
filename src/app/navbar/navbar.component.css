@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlists ul li{
+    list-style: none;
+    display: inline;
+    padding: 7px 10px 7px 10px;
+}
+.navbar .logo{
+    font-size: 22px;
+    color: #032344;
+    font-weight: bold;
+}
+.navlists ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #032344;
+}

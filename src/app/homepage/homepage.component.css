@@ -1,0 +1,123 @@
+*{
+    color: #032344;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.charthomepage{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.texts .chart{
+    background-color: #aac1d8;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0;
+}
+.texts #chart{
+    background-color: #aac1d8;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+}
+.about_section{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.about_section h1{
+    text-align: center;
+}
+.about{
+    font-size: 19px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.what_customers_says{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.flex_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.flex_cards .cards{
+    width: 220px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px #aac1d8;
+}
+.what_customers_says h1{
+    text-align: center;
+}
+.cards .statements{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.feedback_sections{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.feedback_sections h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.feedback_sections textarea{
+    width: 50%;
+    height: 100px;
+    resize: none;
+    outline: none;
+    border: 2px solid #032344;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#sendbutton{
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #032344;
+    border:none;
+    margin-top: 15px;
+}
+.feedback_form{
+   text-align: center;
+}
+.footer{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    background-color: #032344;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+.terms{
+    position: relative;
+    width:100%;
+    text-align: center;
+}
+.contacts{
+    width: 300px;
+}
+.contacts ul li{
+    color: #FFFFFF;
+    list-style: none;
+    margin-top: 8px;
+}
+.termsandcondition{
+    position: absolute;
+    bottom: 0;
+    color: #FFFFFF;
+}
+sup{
+    color: #FFFFFF;
+}

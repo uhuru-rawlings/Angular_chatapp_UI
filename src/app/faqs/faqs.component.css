@@ -1,0 +1,74 @@
+*{
+    color: #032344;
+}
+.frequently_asked_question{
+    width: 80%;
+    margin:auto;
+    margin-top: 40px;
+}
+.frequently_asked_question h1{
+    text-align: center;
+}
+.question_form{
+    text-align: center;
+}
+.question_form .parag{
+    text-align: center;
+}
+#question{
+    width: 50%;
+    height:34px;
+    padding-left: 20px;
+    font-size: 16px;
+    border: 2px solid #032344;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+    color: #032344;
+}
+#submitbths{
+    width: 10%;
+    height:40px;
+    background-color: #032344;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+.questions{
+    box-shadow: 3px 3px 5px #aac1d8;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    background-color: #032344;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+.terms{
+    position: relative;
+    width:100%;
+    text-align: center;
+}
+.contacts{
+    width: 300px;
+}
+.contacts ul li{
+    color: #FFFFFF;
+    list-style: none;
+    margin-top: 8px;
+}
+.termsandcondition{
+    position: absolute;
+    bottom: 0;
+    color: #FFFFFF;
+}
+sup{
+    color: #FFFFFF;
+}
